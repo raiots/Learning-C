@@ -20,4 +20,6 @@ int main()
     printf("The perameter of this triangle is: %f", \
         a + b + sqrt(pow(a, 2) + pow(b, 2) + \
         2 * a * b * cos(alpha*asin(1)*2/180)));
+    
+    return 0;
 }

@@ -34,5 +34,7 @@ int main()
     }
     else{
         printf("Can not be devided by 3, 5, 7.");
-    }    
+    }  
+    
+    return 0;  
 }
