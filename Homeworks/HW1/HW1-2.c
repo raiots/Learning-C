@@ -1,3 +1,11 @@
+/*****************************************************************************
+File name: HW1-2.c
+Description: 判断输入的数字是否能被3、5、7整除
+Permalink: https://github.com/raiots/Learning-C/tree/main/Homeworks/HW1
+Author: Raiot.Me
+Date: 2021-9-27
+*****************************************************************************/
+
 #include <stdio.h>
 
 int main()

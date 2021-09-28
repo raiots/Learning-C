@@ -1,3 +1,11 @@
+/*****************************************************************************
+File name: HW1-3.c
+Description: 通过整数m, n 计算其最大公因数和最小公倍数
+Permalink: https://github.com/raiots/Learning-C/tree/main/Homeworks/HW1
+Author: Raiot.Me
+Date: 2021-9-27
+*****************************************************************************/
+
 #include <stdio.h>
 
 int main()
