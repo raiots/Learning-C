@@ -18,7 +18,7 @@ int main()
     printf("The area of this triangle is: %f\n", \
         a * b * sin(alpha * asin(1) * 2/180) / 2);
     printf("The perameter of this triangle is: %f", \
-        a + b + sqrt(pow(a, 2) + pow(b, 2) + \
+        a + b + sqrt(pow(a, 2) + pow(b, 2) - \
         2 * a * b * cos(alpha*asin(1)*2/180)));
     
     return 0;

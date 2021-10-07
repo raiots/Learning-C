@@ -23,6 +23,9 @@ int main()
     else if(x % 5 == 0 && x % 7 == 0){
         printf("Can be devided by 5, 7 at the same time.");
     }
+    else if(x % 3 == 0 && x % 7 == 0){
+        printf("Can be devided by 3, 7 at the same time.");
+    }    
     else if(x % 3 == 0){
         printf("Can be only devided by 3.");
     }
