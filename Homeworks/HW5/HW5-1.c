@@ -12,7 +12,7 @@ void draw(int rows);
 int main()
 {
     int num;
-    printf("Please input the rows of triangle:\n");
+    printf("Please input the rows of triangle: ");
     scanf("%d", &num);
     draw(num);
 
