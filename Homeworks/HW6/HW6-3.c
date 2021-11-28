@@ -10,7 +10,7 @@ Date: 2021-11-15
 
 void Stat(int arr[], double ret[4], int num){
     int i, j, temp;
-    
+
     // 冒泡算法，获得最大、小值
     for (i=num; i>0; i--){
         for (j=0; j < i - 1; j++){
@@ -23,7 +23,7 @@ void Stat(int arr[], double ret[4], int num){
     }
     ret[0] = arr[0];
     ret[1] = arr[num - 1];
-    
+
     // 计算数组和（ret[2]）、数组平均数（ret[3]）
     for (i=0; i<num; i++){
         ret[2] += arr[i];
@@ -36,8 +36,7 @@ int main()
     int arro[128] = {6,5,4,3,2,1,0,2,3,5};
     double result[4] = {0,0,0,0};
     int num = 10, i=0;
-    
-    
+
     Stat(arro, result, num);
     // for (i=0; i<4; i++){
     //     printf("%d ", result[i]);
