@@ -40,7 +40,7 @@ void stat(int x[], int n, double *mean, double *std, double *median){
     if (n%2 == 0){
         *median = (x[n/2] + x[n/2 + 1]) / 2.0;
     }
-    else *median = x[n/2 + 1];
+    else *median = x[n/2];
 //    printf("\n%d\n", n/2);
 }
 
