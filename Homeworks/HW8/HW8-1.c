@@ -1,9 +1,9 @@
 /*****************************************************************************
-File name:  HW8-1.c
-Description:  实现一个函数，使用递归检测字符串是否为回文
-Permalink:  https: //github.com/raiots/Learning-C/tree/main/Homeworks/HW8
-Author:  Raiot.Me
-Date:  2021-11-22
+File name: HW8-1.c
+Description: 实现一个函数，使用递归检测字符串是否为回文
+Permalink: https: //github.com/raiots/Learning-C/tree/main/Homeworks/HW8
+Author: Raiot.Me
+Date: 2021-11-22
 *****************************************************************************/
 
 #include <stdio.h>
