@@ -38,18 +38,21 @@ void printArray(char *str[], int n)
 {
     int i;
     for (i=0; i<n; i++)
-        printf("%s\n", str[i]);
+        printf("%s ", str[i]);
+    printf("\n");
 }
 
 int main()
 {
     char *str[3];
-    str[0] = "cat";
+    str[0] = "dog";
     str[1] = "cat";
     str[2] = "mouse";
 
+    printf("Before sort:\n");
     printArray(str, 3);
-    stringSort(str, 3, isLower);
+    stringSort(str, 3, isLower); // Using isLager as argument to get ascending sort.
+    printf("After descending sort (Change argument above to apply ascending sort):\n");
     printArray(str, 3);
 
     return 0;
